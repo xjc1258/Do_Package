@@ -19,7 +19,7 @@ public class Testkkk {
 		list.add(customermap);
 		Map<String, Object> rrrr = new HashMap<>();
 		rrrr.put("11", "222");
-		rrrr.put("2", list);
+		rrrr.put("2", "66");
 		String x =JSONObject.toJSONString(rrrr);
 		System.out.println(x);
 		/*

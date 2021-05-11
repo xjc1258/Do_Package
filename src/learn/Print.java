@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 public class Print {
 
 	    public static void main(String[] args) {
-	        File file = new File("f://ccc.txt");
+	        File file = new File("h://ccc.txt");
 	        System.out.println(file.exists());//输出为false，因为本地没有ccc.txt
 	        PrintWriter pw = null;
 	        try {
@@ -16,9 +16,11 @@ public class Print {
 	            e.printStackTrace();
 	        }
 	        pw.print("Hello World");
+	        for(int i= 0;i<1000;i++){
+	            pw.print(i+"\r\n");
+	        }
 	        pw.close();
 	    }
-	
 
 		//	（1）print(String str)：向文件写入一个字符串。
 		//

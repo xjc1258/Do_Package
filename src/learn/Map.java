@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
+import org.junit.Test;
+
 public class Map {
 
 	public static void main(String[] args) {
@@ -26,9 +28,27 @@ public class Map {
 			System.out.println(entry.getKey() + "====" + entry.getValue());
 		}
 		// hashmap的remove方法
-		Object remove = map.remove("5");
+		Object remove = map.remove("4");
 		System.out.println(remove);
 
+	}
+
+	@Test
+	public void Haaa() {
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("1", "1");
+		map.put("2", "2");
+		map.put("3", "3");
+		map.put("4", "4");
+		map.put("5", "5");
+		map.put("6", "6");
+		map.put("7", "7");
+
+		String remove = map.remove("7");
+		System.out.println(remove);
+		for (Entry<String, String> en : map.entrySet()) {
+			System.out.println(en.getKey());
+		}
 	}
 
 }

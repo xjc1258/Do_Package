@@ -31,8 +31,8 @@ public class MakeSQl {
 	}
 
 	public static void main(String[] args) {
-		///String[] a = new String[] { "1", "2", "3", "4" };
-		String[] a = new String[]{};
+		/// String[] a = new String[] { "1", "2", "3", "4" };
+		String[] a = new String[] {};
 		String a1 = "code";
 		String buildSqlForIn = MakeSQl.buildSqlForIn(a1, a);
 		System.out.println(buildSqlForIn);

@@ -45,7 +45,6 @@ public class InstanceOf {
 				continue;
 			}
 			list.add(a);
-
 		}
 		System.out.println(list.size());
 		// ||是且的意思
@@ -54,11 +53,7 @@ public class InstanceOf {
 		 * 
 		 * }
 		 */
-		int[][] arr = new int[][]{{1,2,3,4},{5,6,7,8},{9,10}};
+		int[][] arr = new int[][] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10 } };
 		System.out.println(arr.toString());
-		
-		
-		
 	}
-
 }

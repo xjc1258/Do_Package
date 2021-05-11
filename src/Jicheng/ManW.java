@@ -1,6 +1,6 @@
 package Jicheng;
 
-public class Man extends People{
+public class ManW extends People{
 	
 	private String sex;
 

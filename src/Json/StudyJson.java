@@ -1,6 +1,9 @@
 package Json;
 
+import java.util.ArrayList;
+
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 
 public class StudyJson {
 
@@ -12,7 +15,12 @@ public class StudyJson {
 		user.setAge(18);
 		user.setGender("女");
 		user.setMotto("姿势要优雅~");
-		String jsonString = JSON.toJSONString(user);
+		ArrayList<User> list = new ArrayList<User>();
+		list.add(user);
+		String jsonString = JSON.toJSONString(list);
+		JSONObject o = new JSONObject();
+		o.put("data", jsonString);
+		System.out.println(o);
 		System.out.println(jsonString);
 	}
 

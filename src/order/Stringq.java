@@ -19,6 +19,7 @@ public class Stringq {
 	    for(Entry<String, String> entry:map.entrySet()){
 	    	System.out.println(entry.getKey()+entry.getValue());
 	    }
+	    System.out.println(Runtime.getRuntime().availableProcessors());
 	    //20210407
 	}
 }

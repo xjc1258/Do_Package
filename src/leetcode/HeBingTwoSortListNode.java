@@ -33,11 +33,6 @@ public class HeBingTwoSortListNode {
 		ListNode e = new ListNode(5);
 		ListNode f = new ListNode(6);
 		ListNode g = new ListNode(7);
-		
-		
-		
-		
-		
 
 	}
 

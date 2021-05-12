@@ -6,7 +6,7 @@ package leetcode;
     data域+ next域：组成数据ai的存储映射，称为结点；
  */
 //通俗的讲就是和谐号，node就是车厢，next就是钢丝绳
-public class BianLiReverse {
+public class BianLiReverseListNode {
 
 	public static void main(String[] args) {
 		Node head = new Node(0);

@@ -1,5 +1,8 @@
 package leetcode;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class DeleteListNode {
 	/*
 	 * @author xjc
@@ -44,7 +47,9 @@ public class DeleteListNode {
 		e.next = f;
 		f.next = g;
 		ListNode tar = new ListNode(7);
-		deleteNode(tar, a);
+		//deleteNode(tar, a);
+		//删除倒数第几个节点
+		removeNthFromEndTwo(a,2);
 		while (a != null) {
 			System.out.println(a.getVal() + "");
 			a = a.next;
@@ -57,6 +62,52 @@ public class DeleteListNode {
 	public void deleteNode(ListNode node) {
 		node.val = node.next.val;
 		node.next = node.next.next;
+	}
+
+	/*
+	 * 删除链表的倒数第几个节点
+	 */
+	public ListNode removeNthFromEnd(ListNode head, int n) {
+		ListNode dummy = new ListNode(0, head);
+		int length = getLength(head);
+		ListNode cur = dummy;
+		for (int i = 1; i < length - n + 1; ++i) {
+			cur = cur.next;
+		}
+		cur.next = cur.next.next;
+		ListNode ans = dummy.next;
+		return ans;
+
+	}
+
+	// 得到链表的长度
+	public int getLength(ListNode head) {
+		int length = 0;
+		while (head != null) {
+			++length;
+			head = head.next;
+		}
+		return length;
+	}
+
+	/*
+	 * 利用堆栈的原理来进行删除
+	 */
+	public static ListNode removeNthFromEndTwo(ListNode head, int n) {
+		ListNode dummy = new ListNode(0, head);
+		Deque<ListNode> stack = new LinkedList<ListNode>();
+		ListNode cur = dummy;
+		while (cur != null) {
+			stack.push(cur);
+			cur = cur.next;
+		}
+		for (int i = 0; i < n; ++i) {
+			stack.pop();
+		}
+		ListNode prev = stack.peek();
+		prev.next = prev.next.next;
+		ListNode ans = dummy.next;
+		return ans;
 	}
 
 }

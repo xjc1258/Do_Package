@@ -16,5 +16,8 @@ public class ListNode {
 
 	ListNode(int x) {
 		val = x;
+	}
+
+	public ListNode(int i, ListNode head) {
 	}; // 赋值链表的值
 }

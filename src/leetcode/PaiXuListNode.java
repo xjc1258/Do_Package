@@ -29,7 +29,5 @@ public class PaiXuListNode {
 		d.next = e;
 		e.next = f;
 		f.next = g;
-		
-		
 	}
 }

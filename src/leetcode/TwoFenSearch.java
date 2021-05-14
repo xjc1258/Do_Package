@@ -1,4 +1,4 @@
-package SuanFa;
+package leetcode;
 import java.util.Arrays;
 public class TwoFenSearch {
 		public static void main(String[] args) {

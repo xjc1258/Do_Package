@@ -17,11 +17,11 @@ public class StudyJson {
 		user.setMotto("姿势要优雅~");
 		ArrayList<User> list = new ArrayList<User>();
 		list.add(user);
-		String jsonString = JSON.toJSONString(list);
+	//	String jsonString = JSON.toJSONString(list);
 		JSONObject o = new JSONObject();
-		o.put("data", jsonString);
+		o.put("data", list);
+		//System.out.println(o);
 		System.out.println(o);
-		System.out.println(jsonString);
 	}
 
 }

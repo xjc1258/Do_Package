@@ -25,7 +25,9 @@ public class HashMapXjc {
 		Map<String, String> map = new HashMap<>();
 		map.put("1", "2");
 		String put = map.put("1", "3");
+		String put1 = map.put("1", "4");
 		System.out.println(put);
+		System.out.println(put1);
 		int hashCode = hashCode();
 
 	}

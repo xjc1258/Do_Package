@@ -6,7 +6,11 @@ import java.util.Iterator;
 import java.util.List;
 
 import String.Person;
-
+/*
+ * @author xjc
+ * @date 2021-05-18
+ * @desc 移出元素,关于移出list中的元素的注意事项
+ */
 public class YiChuYuanSu {
 	public static void main(String[] args) {
 		int[] nums = { 1, 2, 2, 2, 2, 3, 4, 5, 6, 7, 8 };
@@ -15,7 +19,7 @@ public class YiChuYuanSu {
 		// System.out.println(removeElement);
 
 		System.out.println(nums.length);
-		// arrayStudy();
+		arrayStudy();
 		// study();
 		functionHa();
 	}
@@ -71,7 +75,7 @@ public class YiChuYuanSu {
 	}
 
 	/*
-	 * 移除List<对象>中指定对象的时候，如果使用for循环好像有问题，使用iterator遍历应该最好。 使用for循环的时候好像会抛出
+	 * 移除List<对象>中指定对象的时候，如果使用foreach循环好像有问题，使用iterator遍历应该最好。 使用for循环的时候好像会抛出
 	 * ConcurrentModificationException 异常。
 	 */
 	public static void removeDutyList(List<Person> list, String target) {

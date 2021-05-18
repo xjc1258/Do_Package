@@ -30,5 +30,7 @@ public class VideoFactory {
 		}
 		return video;
 	}
+	
+	//注意区分策略模式的区别{是一个接口有多个实现类，然后某一种实现类去处理某一种情况}
 
 }

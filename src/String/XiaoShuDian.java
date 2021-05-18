@@ -32,10 +32,10 @@ public class XiaoShuDian {
 		 * System.out.println(format);
 		 */
 
-	ArrayList<Integer> a = new ArrayList<Integer>();
-	a.add(3);
-	a.add(1);
-	a.add(2);
+		ArrayList<Integer> a = new ArrayList<Integer>();
+		a.add(3);
+		a.add(1);
+		a.add(2);
 		boolean contains = a.contains(2);
 		System.out.println(contains);
 

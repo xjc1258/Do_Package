@@ -4,9 +4,7 @@ public class HeBingTwoSortListNode {
 
 	/*
 	 * @author xjc
-	 * 
 	 * @date 2021-05-12
-	 * 
 	 * @desc 合并两个有序链表
 	 */
 	// 递归

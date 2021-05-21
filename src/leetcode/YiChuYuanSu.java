@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import String.Person;
+
 /*
  * @author xjc
  * @date 2021-05-18
@@ -72,7 +73,7 @@ public class YiChuYuanSu {
 				list.remove(item);
 			}
 		}
-	}
+	}//再测测2021-05-21
 
 	/*
 	 * 移除List<对象>中指定对象的时候，如果使用foreach循环好像有问题，使用iterator遍历应该最好。 使用for循环的时候好像会抛出
@@ -84,8 +85,8 @@ public class YiChuYuanSu {
 			Person dutyListVo = iterator.next();
 			if (dutyListVo.getName().equals(target)) {
 				iterator.remove();
-			} else {
 			}
+
 		}
 
 	}

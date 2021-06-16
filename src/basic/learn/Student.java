@@ -1,4 +1,4 @@
-package learn;
+package basic.learn;
 
 public class Student {
 	public String name;

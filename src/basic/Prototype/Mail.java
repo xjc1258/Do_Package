@@ -1,4 +1,4 @@
-package Prototype;
+package basic.Prototype;
 
 public class Mail implements Cloneable{
 	private String name;

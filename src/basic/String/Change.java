@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 public class Change {
 	public static void main(String[] args) {

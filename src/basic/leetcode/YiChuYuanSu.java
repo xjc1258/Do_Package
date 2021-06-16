@@ -1,11 +1,11 @@
-package leetcode;
+package basic.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import String.Person;
+import basic.String.Person;
 
 /*
  * @author xjc

@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 /*
  * @author xjc

@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 import java.io.IOException;
 import java.io.PrintWriter;

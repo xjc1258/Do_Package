@@ -1,4 +1,4 @@
-package YiChang;
+package basic.YiChang;
 
 //测试finally中出现return
 public class TestFinally {

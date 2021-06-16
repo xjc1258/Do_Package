@@ -1,8 +1,9 @@
-package IntanceOf;
+package basic.IntanceOf;
 
 import java.util.ArrayList;
 import java.util.List;
-import String.Person;
+
+import basic.String.Person;
 
 public class InstanceOf {
 

@@ -1,4 +1,4 @@
-package learn;
+package basic.learn;
 
 import java.io.File;
 import java.io.FileNotFoundException;

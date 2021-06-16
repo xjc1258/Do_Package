@@ -1,4 +1,4 @@
-package leetcode;
+package basic.leetcode;
 /*
  * @author xjc
  * @date 2021-05-29

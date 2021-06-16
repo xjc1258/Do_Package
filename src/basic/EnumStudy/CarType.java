@@ -1,4 +1,4 @@
-package EnumStudy;
+package basic.EnumStudy;
 
 import java.util.Arrays;
 import java.util.HashMap;

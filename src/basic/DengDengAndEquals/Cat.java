@@ -1,4 +1,4 @@
-package DengDengAndEquals;
+package basic.DengDengAndEquals;
 /*
  * @author xjc
  * @date 2021-05-18

@@ -1,4 +1,4 @@
-package Redis;
+package basic.Redis;
 
 import java.util.HashMap;
 import java.util.Map;

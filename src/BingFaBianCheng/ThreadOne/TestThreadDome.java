@@ -1,4 +1,4 @@
-package ThreadOne;
+package BingFaBianCheng.ThreadOne;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

@@ -1,4 +1,4 @@
-package BuilderSql;
+package basic.BuilderSql;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,4 +1,4 @@
-package Prototype;
+package basic.Prototype;
 
 public class Test {
 	//拒绝在for中new对象

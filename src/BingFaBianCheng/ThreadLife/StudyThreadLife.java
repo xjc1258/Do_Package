@@ -1,4 +1,4 @@
-package ThreadLife;
+package BingFaBianCheng.ThreadLife;
 /*
  * @author xjc
  * @date 2021-05-30

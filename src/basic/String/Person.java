@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 public class Person {
 	private String name;

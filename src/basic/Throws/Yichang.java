@@ -1,4 +1,4 @@
-package Throws;
+package basic.Throws;
 
 public class Yichang {
 

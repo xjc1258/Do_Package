@@ -1,4 +1,4 @@
-package Redis;
+package basic.Redis;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 

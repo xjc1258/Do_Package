@@ -1,4 +1,4 @@
-package AbtractPrototype;
+package basic.AbtractPrototype;
 
 public abstract class A implements Cloneable{
 

@@ -1,4 +1,4 @@
-package SimpleFactory;
+package basic.SimpleFactory;
 
 public abstract class Video {
 	public abstract void produce();

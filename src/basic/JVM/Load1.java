@@ -1,4 +1,4 @@
-package JVM;
+package basic.JVM;
 
 public class Load1 {
 	public static void main(String[] args) throws Exception {

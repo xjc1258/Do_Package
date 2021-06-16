@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 import org.apache.commons.lang3.StringUtils;
 

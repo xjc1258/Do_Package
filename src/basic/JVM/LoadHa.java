@@ -1,4 +1,4 @@
-package JVM;
+package basic.JVM;
 
 import java.io.ByteArrayOutputStream;
 import java.nio.file.Files;

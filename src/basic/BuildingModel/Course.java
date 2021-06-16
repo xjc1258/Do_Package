@@ -1,4 +1,4 @@
-package BuildingModel;
+package basic.BuildingModel;
 /*@author xjc
  *@date 2021-05-18
  *@desc 建造者模式

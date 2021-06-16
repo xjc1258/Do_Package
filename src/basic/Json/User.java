@@ -1,4 +1,4 @@
-package Json;
+package basic.Json;
 
 public class User {
 	

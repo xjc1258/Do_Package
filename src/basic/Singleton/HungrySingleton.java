@@ -1,4 +1,4 @@
-package Singleton;
+package basic.Singleton;
 
 /*
  * 饿汉式的单例

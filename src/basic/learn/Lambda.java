@@ -1,4 +1,4 @@
-package learn;
+package basic.learn;
 
 import java.util.ArrayList;
 import java.util.Comparator;

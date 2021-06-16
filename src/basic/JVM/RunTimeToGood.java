@@ -1,4 +1,4 @@
-package JVM;
+package basic.JVM;
 //-XX:+PrintCompilation -XX:-DoEscapeAnalysis
 public class RunTimeToGood {
 	public static void main(String[] args) {

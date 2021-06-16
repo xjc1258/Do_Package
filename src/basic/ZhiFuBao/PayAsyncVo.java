@@ -1,4 +1,4 @@
-package ZhiFuBao;
+package basic.ZhiFuBao;
 
 public class PayAsyncVo {
 	private String gmt_create;

@@ -1,4 +1,4 @@
-package Array;
+package ShujuJieGou.Array;
 
 public class StudyArray {
 	

@@ -1,4 +1,4 @@
-package AbtractPrototype;
+package basic.AbtractPrototype;
 
 public class B extends A{
 	public static void main(String[] args) throws CloneNotSupportedException {

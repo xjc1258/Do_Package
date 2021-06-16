@@ -1,4 +1,4 @@
-package ObserverModel;
+package basic.ObserverModel;
 
 import java.util.ArrayList;
 import java.util.Iterator;

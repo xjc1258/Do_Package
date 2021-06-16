@@ -1,4 +1,4 @@
-package Queue;
+package basic.Queue;
 
 import java.util.Random;
 import java.util.concurrent.locks.Condition;

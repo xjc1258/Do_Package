@@ -1,4 +1,4 @@
-package ObserverModel;
+package basic.ObserverModel;
 
 public class StuEventListener implements BellEventListener {
 	public void heardBell(RingEvent e) {

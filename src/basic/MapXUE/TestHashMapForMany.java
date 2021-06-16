@@ -1,4 +1,4 @@
-package MapXUE;
+package basic.MapXUE;
 
 public class TestHashMapForMany {
 	public static void main(String[] args) {

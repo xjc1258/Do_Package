@@ -1,4 +1,4 @@
-package Thread;
+package basic.Thread;
 
 public class SynchronizeHHH {
 	public  static  void  main(String[] args){

@@ -1,4 +1,4 @@
-package ThreadOne;
+package BingFaBianCheng.ThreadOne;
 
 public class StudyThreadtoe {
 

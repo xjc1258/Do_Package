@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

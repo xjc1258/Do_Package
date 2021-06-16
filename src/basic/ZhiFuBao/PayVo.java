@@ -1,4 +1,4 @@
-package ZhiFuBao;
+package basic.ZhiFuBao;
 
 public class PayVo {
 	

@@ -1,4 +1,4 @@
-package DengDengAndEquals;
+package basic.DengDengAndEquals;
 
 public class DDAndEquals {
 

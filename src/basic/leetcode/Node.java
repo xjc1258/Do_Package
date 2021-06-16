@@ -1,4 +1,4 @@
-package leetcode;
+package basic.leetcode;
 
 public class Node {
 	private int Data;// 数据域

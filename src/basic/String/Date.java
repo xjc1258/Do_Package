@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

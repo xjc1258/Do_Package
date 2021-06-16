@@ -1,4 +1,4 @@
-package Prototype;
+package basic.Prototype;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package leetcode;
+package basic.leetcode;
 
 /*
  *  data域：存储数据元素信息的域称为数据域；　

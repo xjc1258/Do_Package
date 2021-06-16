@@ -1,4 +1,4 @@
-package Sort;
+package basic.Sort;
 
 import java.util.HashMap;
 import java.util.Map;

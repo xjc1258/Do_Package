@@ -1,4 +1,4 @@
-package Jicheng;
+package basic.Jicheng;
 public class Test {
 
 	public static void main(String[] args) {

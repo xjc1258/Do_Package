@@ -1,4 +1,4 @@
-package ThreadOne;
+package BingFaBianCheng.ThreadOne;
 
 /*
  * @author xjc

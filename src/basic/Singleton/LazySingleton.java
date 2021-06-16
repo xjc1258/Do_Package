@@ -1,4 +1,4 @@
-package Singleton;
+package basic.Singleton;
 
 public class LazySingleton {
 	// 懒汉式---注重的是延迟加载，线程不安全的

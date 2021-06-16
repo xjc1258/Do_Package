@@ -1,4 +1,4 @@
-package Singleton;
+package basic.Singleton;
 
 public class T implements Runnable {
 

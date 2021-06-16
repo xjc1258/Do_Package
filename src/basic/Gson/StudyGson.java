@@ -1,4 +1,4 @@
-package Gson;
+package basic.Gson;
 
 public class StudyGson {
 	public static void main(String[] args) {

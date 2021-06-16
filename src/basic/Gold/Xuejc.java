@@ -1,4 +1,4 @@
-package Gold;
+package basic.Gold;
 
 import java.util.ArrayList;
 import java.util.HashMap;

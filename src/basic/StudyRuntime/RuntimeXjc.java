@@ -1,4 +1,4 @@
-package StudyRuntime;
+package basic.StudyRuntime;
 
 public class RuntimeXjc {
 	

@@ -1,4 +1,4 @@
-package ObserverModel;
+package basic.ObserverModel;
 
 public class Test {
 

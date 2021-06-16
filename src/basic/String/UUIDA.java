@@ -1,4 +1,4 @@
-package String;
+package basic.String;
 
 public class UUIDA {
 	private Person p = null;

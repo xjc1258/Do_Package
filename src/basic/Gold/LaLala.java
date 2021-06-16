@@ -1,4 +1,4 @@
-package Gold;
+package basic.Gold;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package BuildingModel;
+package basic.BuildingModel;
 
 public class Test {
 	public static void main(String[] args) {

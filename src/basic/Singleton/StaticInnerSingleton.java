@@ -1,4 +1,4 @@
-package Singleton;
+package basic.Singleton;
 
 public class StaticInnerSingleton {
 	//静态内部类有初始化锁

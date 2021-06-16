@@ -1,4 +1,4 @@
-package MapXUE;
+package basic.MapXUE;
 
 import java.util.Iterator;
 import java.util.Map;

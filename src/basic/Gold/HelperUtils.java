@@ -1,4 +1,4 @@
-package Gold;
+package basic.Gold;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Thread;
+package basic.Thread;
 
 public class VolatileTest extends Thread {
 	boolean flag = false;

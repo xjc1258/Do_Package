@@ -1,4 +1,4 @@
-package Volatile;
+package basic.Volatile;
 
 /*
  * @author xjc

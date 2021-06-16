@@ -1,4 +1,4 @@
-package JVM;
+package basic.JVM;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

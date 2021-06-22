@@ -17,8 +17,8 @@ public class ThreadPoolStudy {
 	
 	/*
 	构造方法:
-	public ThreadPoolExecutor(int corePoolSize, //核心线程数量
-		                      int maximumPoolSize,//最大线程数
+	public ThreadPoolExecutor(int corePoolSize, //核心线程数量,常驻线程的最大数量
+		                      int maximumPoolSize,//最大线程数，包括核心线程和非核心线程
 		                      long keepAliveTime, //最大空闲时间
 		                      TimeUnit unit,         //时间单位
 		                      BlockingQueue<Runnable> workQueue,   //任务队列
@@ -27,8 +27,6 @@ public class ThreadPoolStudy {
 	) {
 	}
 	*/
-
-	
 	public static void main(String[] args) {
 		ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS,
 				new ArrayBlockingQueue<Runnable>(5));

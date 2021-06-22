@@ -1,4 +1,4 @@
-package basic.SimpleFactory;
+package basic.SimpleFactoryModel;
 
 public class JavaVideo extends Video {
 

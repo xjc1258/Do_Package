@@ -1,4 +1,4 @@
-package basic.AbtractPrototype;
+package basic.AbtractPrototypeModel;
 
 /*
  * @author xjc

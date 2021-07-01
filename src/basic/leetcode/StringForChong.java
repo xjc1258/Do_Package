@@ -9,9 +9,7 @@ public class StringForChong {
 	// 需保证 返回结果的字典序最小（要求不能打乱其他字符的相对位置）
 	public static void main(String[] args) {
 		String xjc = "bacabc";
-
 	}
-
 	/*
 	 * 我们使用单调栈
 	 */

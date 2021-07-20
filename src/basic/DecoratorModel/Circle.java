@@ -1,11 +1,9 @@
 package basic.DecoratorModel;
 
-public class Circle implements Shape{
+public class Circle implements Shape {
 
 	@Override
 	public void draw() {
-		System.out.println("Shape: Circle");		
+		System.out.println("Shape: Circle");
 	}
-
-	
 }

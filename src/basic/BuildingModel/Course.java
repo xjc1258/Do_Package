@@ -11,6 +11,7 @@ public class Course {
 	private String courseArticle;
 	private String courseOA;
 
+	// 有参构造初始化
 	public Course(CourseBuilder courseBuilder) {
 		this.courseName = courseBuilder.courseName;
 		this.coursePPT = courseBuilder.coursePPT;
@@ -59,6 +60,7 @@ public class Course {
 		}
 
 		public Course build() {
+			// 这个this是属于内部类的
 			return new Course(this);
 		}
 	}

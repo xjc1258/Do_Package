@@ -9,7 +9,8 @@ public class StringBuild {
 			return " (1=2) ";
 		}
 		StringBuffer sbSQL = new StringBuffer();
-		sbSQL.append("(" + fieldname + " IN ( ");
+		// sbSQL.append(fieldname + " IN ( ");
+		sbSQL.append("(");
 		int len = fieldvalue.length;
 
 		for (int i = 0; i < len; i++) {
@@ -18,19 +19,23 @@ public class StringBuild {
 				if (i != fieldvalue.length - 1) {
 					if (i > 0 && (i + 1) % 200 == 0) {
 
-						sbSQL.append(" ) OR ").append(fieldname).append(" IN ( ");
+						sbSQL.append(" ) OR ").append(" IN ( ");
 					} else if (i < len - 1 && StringUtils.isNotBlank(fieldvalue[i + 1])) {
 						sbSQL.append(",");
 					}
 				}
 			}
 		}
-		sbSQL.append(" )) ");
+		sbSQL.append(")");
 		return sbSQL.toString();
 	}
+
 	public static void main(String[] args) {
 		StringBuilder sb = new StringBuilder();
-		sb.append(buildSqlForIn("initcode", new String[] { "mdm_type" }));
+		String ab = "1,2,3";
+		String[] split = ab.split(",");
+		sb.append(buildSqlForIn("initcode", split));
+		// sb.append(buildSqlForIn("initcode", new String[] { "mdm_type" }));
 		System.out.println(sb.toString());
 	}
 

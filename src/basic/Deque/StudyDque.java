@@ -27,7 +27,7 @@ public class StudyDque {
 
 	@Test
 	public void queue() {
-		// queue是一个先进先出的队列
+		// queue是一个先进先出的队列，区别于栈
 		Queue<String> queue = new LinkedList();
 		queue.offer("薛");
 		queue.offer("景");
@@ -41,10 +41,6 @@ public class StudyDque {
 	@Test
 	public void TestQueue() {
 		Deque deque = new LinkedList();
-		
-		
-		
-		
 	}
 
 }

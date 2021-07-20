@@ -6,6 +6,5 @@ public class Test {
 		Course course = new Course.CourseBuilder().buildCourseArticle("222").buildCourseName("rrr").buildCourseOA("ttt")
 				.buildCoursePPT("ddd").buildCourseVideo("oo").build();
 		System.out.println(course);
-		Object b;
 	}
 }

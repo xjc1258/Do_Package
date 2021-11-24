@@ -7,7 +7,7 @@ package basic.Volatile;
  */
 public class StudyVoilatileOfValue {
 	public static void main(String[] args) {
-		Singleton singleton = Singleton.getSingleton();
+//		Singleton singleton = Singleton.getSingleton();
 	}
 
 	/*

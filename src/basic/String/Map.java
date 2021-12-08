@@ -3,6 +3,8 @@ package basic.String;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.junit.Test;
+
 import com.alibaba.fastjson.JSONObject;
 
 public class Map {
@@ -70,6 +72,7 @@ public class Map {
 	 * 
 	 * @data 2021.05.10 另外的格式
 	 */
+	@Test
 	public static String build() {
 		ArrayList<java.util.Map<String, Object>> l1 = new ArrayList<java.util.Map<String, Object>>();
 		java.util.Map<String, Object> map1 = new HashMap<String, Object>();

@@ -14,6 +14,7 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang.time.DateFormatUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateUtils;
+import org.junit.Test;
 
 import com.mysql.fabric.xmlrpc.base.Array;
 
@@ -76,12 +77,14 @@ public class ChangYongMethod {
 	}
 
 	// 重复拼接字符串
+	@Test
 	public void Method6() {
 		String repeat = StringUtils.repeat("ad", 3);
 		System.out.println(repeat);
 	}
 
 	// 格式化日期
+	@Test
 	public void Method7() {
 		// Date转String类型
 		String format = DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
@@ -99,6 +102,7 @@ public class ChangYongMethod {
 	}
 
 	//
+	@Test
 	public void Method8() {
 		List<String> listA = new ArrayList<String>();
 		listA.add("a");

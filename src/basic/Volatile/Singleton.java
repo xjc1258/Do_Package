@@ -11,14 +11,15 @@ public class Singleton {
 
 	// 私有空参构造
 	private Singleton() {
-		
+		String a = "aa";
+		System.out.println(a);
 	}
 
 	public static Singleton getSingleton() {
 		if (singleton == null) {
 			synchronized (Singleton.class) {
 				if (singleton == null) {
-					singleton = new Singleton();
+					singleton = new Singleton();//当new的时候它会调用空参构造
 					System.out.println("双重锁校验的单例新建了");
 				}
 			}

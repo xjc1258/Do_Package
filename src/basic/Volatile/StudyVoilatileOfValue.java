@@ -7,7 +7,8 @@ package basic.Volatile;
  */
 public class StudyVoilatileOfValue {
 	public static void main(String[] args) {
-//		Singleton singleton = Singleton.getSingleton();
+		//new Singleton();   是不能new的
+		Singleton singleton = Singleton.getSingleton();
 	}
 
 	/*

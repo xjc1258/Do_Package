@@ -20,3 +20,5 @@ public class HungrySingleton {
 	}
 
 }
+
+//因为懒所以饿，饿就给他吃

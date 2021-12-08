@@ -1,8 +1,12 @@
 package basic.learn;
 
+/*
+ * re_date 2021-11-03
+ */
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import org.junit.Test;
 
@@ -21,6 +25,7 @@ public class Map {
 		map.put("3", stu3);
 		map.put("4", stu4);
 
+		Set<Entry<String, Object>> entrySet = map.entrySet();
 		// 循环键值
 		Iterator<Entry<String, Object>> it = map.entrySet().iterator();
 		while (it.hasNext()) {
@@ -44,7 +49,7 @@ public class Map {
 		map.put("6", "6");
 		map.put("7", "7");
 
-		String remove = map.remove("7");
+		String remove = map.remove("7");//移除key即可得到键值
 		System.out.println(remove);
 		for (Entry<String, String> en : map.entrySet()) {
 			System.out.println(en.getKey());

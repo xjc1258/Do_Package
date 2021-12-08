@@ -23,6 +23,6 @@ public class ContainerSingleton {
 		return singlemap.get(key);
 	}
 	private ContainerSingleton() {
-
+		//私有空参构造
 	}
 }

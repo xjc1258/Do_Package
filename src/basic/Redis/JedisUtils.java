@@ -1,4 +1,5 @@
 package basic.Redis;
+
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
@@ -381,9 +382,10 @@ public class JedisUtils {
 	 * @param value
 	 * @return
 	 */
-	/*public Long linsert(String key, BinaryClient.LIST_POSITION where, String pivot, String value) {
-		return jedis.linsert(key, where, pivot, value);
-	}*/
+	/*
+	 * public Long linsert(String key, BinaryClient.LIST_POSITION where, String
+	 * pivot, String value) { return jedis.linsert(key, where, pivot, value); }
+	 */
 
 	/**
 	 * 通过key设置list指定下标位置value，越界报错
